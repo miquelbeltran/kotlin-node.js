@@ -4,7 +4,8 @@
   "description": "Kotlin x Node.JS",
   "main": "index.js",
   "dependencies": {
-    "kotlin": "^1.1.0"
+    "kotlin": "^1.1.0",
+    "node.js": "0.0.0"
   },
   "devDependencies": {},
   "scripts": {
