@@ -21,17 +21,5 @@ dependencies {
   compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
 }
 
-build.doLast {
-  configurations.compile.each { File file ->
-    copy {
-      includeEmptyDirs = false
+compileKotlin2Js.kotlinOptions.moduleKind = "commonjs"
 
-        from zipTree(file.absolutePath)
-        into "${projectDir}/web"
-        include { fileTreeElement ->
-          def path = fileTreeElement.path
-            path.endsWith(".js") && (path.startsWith("META-INF/resources/") || !path.startsWith("META-INF/"))
-        }
-    }
-  }
-}
