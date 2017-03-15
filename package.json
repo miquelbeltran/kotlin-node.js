@@ -1,0 +1,23 @@
+{
+  "name": "kotlin-node.js",
+  "version": "1.0.0",
+  "description": "Kotlin x Node.JS",
+  "main": "index.js",
+  "dependencies": {
+    "kotlin": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/miquelbeltran/kotlin-node.js.git"
+  },
+  "author": "Miquel Beltran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miquelbeltran/kotlin-node.js/issues"
+  },
+  "homepage": "https://github.com/miquelbeltran/kotlin-node.js#readme"
+}
