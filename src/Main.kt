@@ -1,9 +1,6 @@
 @native
 fun require(module:String):dynamic
 
-@native
-var process:dynamic
-
 fun main(args: Array<String>) {
     println("Hello JavaScript!")
 
