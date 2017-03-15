@@ -10,4 +10,4 @@ Instructions
 3. Run on the command line `node out/production/kotlin-node.js/kotlin-node.js.js`
 4. Open the browser on `http://localhost:3000/`
 
-All source code is insie `src/Main.kt`
+All source code is inside `src/Main.kt`
