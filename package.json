@@ -4,6 +4,7 @@
   "description": "Kotlin x Node.JS",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.15.2",
     "kotlin": "^1.1.0",
     "node.js": "0.0.0"
   },
