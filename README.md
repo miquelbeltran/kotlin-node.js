@@ -1,13 +1,12 @@
 # kotlin-node.js
 
-How difficult is to setup a Node.js project that purely uses Kotlin? Answer: fairly easy.
+Code for the article: https://medium.com/@Miqubel/your-first-node-js-app-with-kotlin-30e07baa0bf7#.gr6m4vrvw
 
 Instructions
 
-0. Install IntelliJ IDEA and Node
-1. Open the project with IDEA
-2. Build
-3. Run on the command line `node out/production/kotlin-node.js/kotlin-node.js.js`
-4. Open the browser on `http://localhost:3000/`
+1. `npm install` (will install dependencies)
+2. `./gradlew build` (will compile Kotlin to JavaScript)
+3. `npm start` (this runs `node node/index.js`)
+4. Open the browser on http://localhost:3000/
 
-All source code is inside `src/Main.kt`
+All source code is inside `src/main/kotlin/Main.kt`
