@@ -5,8 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.15.2",
+    "fs": "0.0.1-security",
     "kotlin": "^1.1.0",
-    "node.js": "0.0.0"
+    "node.js": "0.0.0",
+    "request": "^2.81.0"
   },
   "devDependencies": {},
   "scripts": {
