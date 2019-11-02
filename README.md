@@ -10,3 +10,7 @@ Instructions
 4. Open the browser on http://localhost:3000/
 
 All source code is inside `src/main/kotlin/Main.kt`
+
+---
+
+Miguel Beltran - [beltran.work](https://beltran.work)
